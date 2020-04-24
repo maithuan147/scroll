@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.red{
+    background: rgba(255, 0, 0, 0.5);
+}
+.blue{
+    background: rgba(0, 0, 255, 0.5);
+}
+.white{
+    background: rgba(255, 255, 255, 0.5);
+}
+.black{
+    background: rgba(255, 192, 203, 0.5);
+}
+.yellow{
+    background: rgba(255, 255, 0, 0.5);
+}
+.heightvh{
+    height: 100vh;
+    position: relative;
+}
+.nav-link{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+}
+.nav-link a{
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: block;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav-link a.active {
+    background: rgba(0, 0, 0, 1);
+}
+.id-link{
+    transition: all 1s;
+    height: 100%;
+    position: absolute;
+    touch-action: none;
+    width: 100%;
+    top: 0;
+}
+h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
